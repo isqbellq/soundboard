@@ -1,0 +1,32 @@
+html, body {
+	background-color: #efefef;
+	text-align: center;
+	font-family: sans-serif;
+}
+.container {
+	margin: 0px 3em 3em;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+.special {
+	color: orange;
+	font-weight: bold;
+	font-style: italic;
+	padding: 4px;
+}
+.sound {
+	border: 1px solid black;
+	display: inline-block;
+	width: 20%;
+}
+button {
+	margin-bottom: 1em;
+	padding: 6px 0;
+	width: 30%;
+	border: 1px solid #222;
+	border-radius: 10px;
+	color: orange;
+	text-shadow: 2px black;
+}
