@@ -32,6 +32,7 @@ function addSoundsToPage(sounds) {
 		soundDiv.appendChild(player);
 
 		playButton.addEventListener("click", () => {
+			player.currentTime = 0;
 			player.play();
 		})
 
